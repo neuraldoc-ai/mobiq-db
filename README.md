@@ -20,3 +20,7 @@ Für eine gehostete Variante (z. B. Cloud SQL for PostgreSQL) dieselben Dateien 
 Teil des Evaluationsdatensatzes: Code in `mobiq-code`, Dokumentation in `mobiq-docs`, Generator, Tickets und Lösung in `mobiq`. Nicht von Hand ändern, sondern im Repository `mobiq` neu erzeugen.
 
 Alle Firmen, Personen und Daten sind erfunden.
+
+## Lizenz
+
+MIT, siehe [LICENSE](LICENSE). Gilt für den gesamten MOBIQ-Datensatz.
