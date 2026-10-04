@@ -1,0 +1,6 @@
+{
+  "version": "PostgreSQL 18",
+  "tables": 14,
+  "rows": 3328,
+  "migrations": 5
+}

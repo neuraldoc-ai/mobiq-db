@@ -1,0 +1,15 @@
+# Die MOBIQ-Datenbank als echtes PostgreSQL:  docker compose up -d
+# Das Image führt die Dateien in initdb/ beim ersten Start in Namensreihenfolge aus:
+# Schema 26.2, Daten, die Flyway-Migrationen aus dem Repository, Daten nach 26.4.
+services:
+  mobiq-db:
+    image: postgres:18
+    container_name: mobiq-db
+    environment:
+      POSTGRES_DB: mobiq
+      POSTGRES_USER: mobiq
+      POSTGRES_PASSWORD: mobiq-demo
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d:ro
